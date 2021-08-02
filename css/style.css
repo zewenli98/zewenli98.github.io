@@ -523,7 +523,9 @@ p.sub-meta {
 .tab-main #tab1:checked ~ #content1,
 .tab-main #tab2:checked ~ #content2,
 .tab-main #tab3:checked ~ #content3,
-.tab-main #tab4:checked ~ #content4 {
+.tab-main #tab4:checked ~ #content4,
+.tab-main #tab5:checked ~ #content5,
+.tab-main #tab6:checked ~ #content6 {
     display: block;
 }
 
@@ -583,9 +585,10 @@ p.paragraph:after {
 
 /*-- quote --*/
 .quote{
-    background: url(../images/banner.jpg) 0px 0px;
+    background: url(../images/background.jpg) 0px 0px;
     background-size: cover;
     position: relative;
+	height: 100%;
 }
 
 .quote:before {
@@ -606,7 +609,7 @@ p.paragraph:after {
 .quote h4 {
     font-size: 25px;
     color: #eee;
-    line-height: 45px;
+    line-height: 50px;
     font-weight: 300;
 }
 .quote h5 {
